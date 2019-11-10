@@ -12,4 +12,14 @@ CH340x驱动
  - Linux: http://www.wch.cn/downloads/CH341SER_LINUX_ZIP.html
  - Android: http://www.wch.cn/downloads/CH341SER_ANDROID_ZIP.html
 
+### 有用的参考
+用Python写ESP:
+http://docs.micropython.org/en/latest/esp32/quickref.html
+http://docs.micropython.org/en/latest/esp8266/quickref.html
+用Lua写ESP:
+https://nodemcu-build.com/
+用Arduino写ESP:
+https://github.com/espressif/arduino-esp32
+https://www.jianshu.com/p/6f6fda5d029b
+
 ### Awsome project of maker

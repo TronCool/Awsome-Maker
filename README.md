@@ -24,4 +24,7 @@ CH340x驱动
  - https://github.com/espressif/arduino-esp32
  - https://www.jianshu.com/p/6f6fda5d029b
 
+### 固件
+Micro Python ESP8266: https://micropython.org/resources/firmware/esp8266-20190529-v1.11.bin
+Micro Python ESP32: https://micropython.org/resources/firmware/esp8266-20190529-v1.11.bin
 ### Awsome project of maker

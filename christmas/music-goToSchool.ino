@@ -64,32 +64,50 @@ int soundPort = 10;
 int soundArray1[] =  {T1, T2, T3, T1, T5, T6, T6, T1H, T6, T5, T6, T6, T1H, T5, T6, T3, T6, T5, T3, T5, T3, T1, T2, T3, T1};
 float paceArray1[] = {C2, C2, C2, C2, CC, C2, C2, C2,  C2, CC, C2, C2, C,  C2, C2,   C, C2, C2, C2, C2, C2, C2, C2, C2, CC};
 
-//int soundArray[] =  {T3, T3, T3, T3, T3, T3, T3, T5, T1, T2, T3 };
-//float paceArray[] = {C2, C2, C,  C2, C2, C,  C2, C2, C2, C2, CC };
-
 int soundArray2[] =  {T5, T5, T3, T2, T1, T5,  T5, T5, T5, T3, T2, T1, T6,   T6, T6, T4, T3, T2, T6,    T6, T5, T5, T4, T2, T3,   T1, T5, T5, T3, T2, T1, T5,    T5, T5, T3, T2, T1, T6};
 float paceArray2[] = {C,  C2, C2, C2, C2, C ,  C2, C2, C2, C2, C2, C2 , C,    C,  C2, C2, C2, C2, C ,    C,  C2, C2, C2, C2, C,    C2, C2, C2, C2, C2, C2, C,     C, C2, C2, C2, C2, C};
 
+int count = 0;
+
 void setup() {
   pinMode(soundPort, OUTPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
+  count++;
+  Serial.println("------loop-----count");
+  Serial.println(sizeof(soundArray1));
+  Serial.println(sizeof(soundArray2));
+  if (count % 2 == 0) {
+    Serial.println("play sound 1----------");
+    playSong1();
+    //playMusic(soundArray1,paceArray1);
+  }
+  else {
+    Serial.println("play sound 2-----------");
+    playSong2();
+  }
+  delay(2000);
+}
 
-  //the size of sound array should be equal to pace array
-  //if (sizeof(soundArray) != sizeof(paceArray)) { //don't know why size is not equal
-
-  for (int i = 0; i < 25; i = i + 1) {
+void playSong1() {
+  int length = sizeof(soundArray1) / 2;
+  Serial.print("length=");
+  Serial.print(length);
+  for (int i = 0; i < length; i = i + 1) {
     play(soundArray1[i], paceArray1[i]);
   }
-  delay(2000);
+}
 
-  for (int i = 0; i < 38; i = i + 1) {
+
+void playSong2() {
+  int length = sizeof(soundArray2) / 2;
+  Serial.print("length=");
+  Serial.print(length);
+  for (int i = 0; i < length; i = i + 1) {
     play(soundArray2[i], paceArray2[i]);
   }
-
-  delay(2000);
-
 }
 
 void play(unsigned int frequency, float pace) {

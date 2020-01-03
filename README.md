@@ -23,6 +23,7 @@ CH340x驱动
 用Arduino写ESP:
  - https://github.com/espressif/arduino-esp32
  - https://www.jianshu.com/p/6f6fda5d029b
+ - https://www.arduino.cn/thread-76029-1-1.html (esp01 测试有效)
 
 ### 固件
 Micro Python ESP8266: https://micropython.org/resources/firmware/esp8266-20190529-v1.11.bin

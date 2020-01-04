@@ -152,7 +152,7 @@
 <td><a href="https://item.taobao.com/item.htm?id=577038176148"><img src="img/O1CN01e04ZyS1DqmeBTmHG6_!!128600268.jpg_160x160xz.jpg"><br>N20微型减速电机</a><br>¥0.98(¥1.30)</td>
 <td><a href="https://item.taobao.com/item.htm?id=601465403288"><img src="img/O1CN01IAD3Jx1DqmhQGZ8dj_!!128600268.jpg_160x160xz.jpg"><br>小音箱8欧8w</a><br>¥2.90(¥3.90)</td>
 </tr>
-</trble>
+</table>
 
 ### 电子配件Accessories
 <table>

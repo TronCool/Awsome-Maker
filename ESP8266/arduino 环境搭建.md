@@ -13,3 +13,7 @@ https://pan.baidu.com/s/19yEQ4UDF-bQCzt3BsdV6Yw
 
 下载地址2：
 https://share.weiyun.com/5CGEKJO
+
+
+备注：在Mac编译程序可能会出现python3找不到的情况，可以对python3做个软连接
+sudo ln -s /usr/bin/python3 ～/Library/Arduino15/packages/esp8266/tools/python3/3.7.2-post1/python3

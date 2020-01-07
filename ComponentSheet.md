@@ -185,6 +185,27 @@
 <td><a href="https://item.taobao.com/item.htm?id=541229819387"><img src="img/TB213UauQUmBKNjSZFOXXab2XXa_!!2863694628.jpg_160x160xz.jpg"><br>1/4W电阻</a><br>¥5.50(¥6.50)</td>
 </tr>
 
+<tr><td colspan="5">店铺：旺诚电子科技 https://shop68020712.taobao.com</td></tr>
+<tr>
+<td><a href="https://item.taobao.com/item.htm?id=594004223834"><img src="img/O1CN01JM9mjR1fkCDOG3Tix_!!385434044.jpg_160x160xz.jpg"><br>音乐盒套件</a><br>¥6.68</td>
+<td><a href="https://item.taobao.com/item.htm?id=577981278099"><img src="img/TB2GRc6bVzqK1RjSZSgXXcpAVXa_!!385434044.jpg_160x160xz.jpg"><br>叮咚门铃套件</a><br>¥3.68(¥3.85)</td>
+<td><a href="https://item.taobao.com/item.htm?id=580840679244"><img src="img/O1CN011fkC9ywcaamimx1_!!385434044.jpg_160x160xz.jpg"><br>小夜灯套件</a><br>¥0.59</td>
+<td><a href="https://item.taobao.com/item.htm?id=578439659273"><img src="img/O1CN011fkC9Scwp7Nbi6D_!!385434044.jpg_160x160xz.jpg"><br>电子琴套件</a><br>¥5.19</td>
+<td><a href="https://item.taobao.com/item.htm?id=583957301925"><img src="img/O1CN01BPbDB61fkCAnxIQGr_!!385434044.jpg_160x160xz.jpg"><br>流水灯套件</a><br>¥0.95(¥1.00)</td>
+</tr>
+<tr>
+<td><a href="https://item.taobao.com/item.htm?id=578342989372"><img src="img/O1CN011fkC9Ual2A3UgGd_!!385434044.jpg_160x160xz.jpg"><br>致爱丽丝音乐小套件</a><br>¥2.33(¥2.50)</td>
+<td><a href="https://item.taobao.com/item.htm?id=580713026913"><img src="img/O1CN011fkC9zBZ5yfLvM5_!!385434044.jpg_160x160xz.jpg"><br>报警器套件</a><br>¥3.30</td>
+<td><a href="https://item.taobao.com/item.htm?id=588311091705"><img src="img/O1CN01aI81Xm1fkCBunNhwQ_!!385434044.jpg_160x160xz.jpg"><br>浇花模块套装</a><br>¥17.80</td>
+<td><a href="https://item.taobao.com/item.htm?id=604298591191"><img src="img/O1CN01Ggv5SC1fkCFa6Gwdn_!!385434044.jpg_160x160xz.jpg"><br>自由行走机器人套件</a><br>¥29.80</td>
+<td><a href="https://item.taobao.com/item.htm?id=581296226897"><img src="img/O1CN011fkCA8z4X3HSlrF_!!385434044.jpg_160x160xz.jpg"><br>红外倒车雷达套件</a><br>¥10.90(¥11.34)</td>
+</tr>
+<tr>
+<td><a href="https://item.taobao.com/item.htm?id=596057646007"><img src="img/O1CN01jj1xo21fkCDwxMlAj_!!385434044.jpg_160x160xz.jpg"><br>循迹小车套件</a><br>¥9.30(¥10.70)</td>
+<td><a href="https://item.taobao.com/item.htm?id=580308508344"><img src="img/O1CN01Xsfvcx1fkCEvWMmA3_!!385434044.jpg_160x160xz.jpg"><br>特斯拉线圈套件</a><br>¥1.80</td>
+<td><a href="https://item.taobao.com/item.htm?id=577953412096"><img src="img/O1CN011fkC9QKZZNqcLLb_!!385434044.jpg_160x160xz.jpg"><br>流水灯套件</a><br>¥1.60(¥2.70)</td>
+</tr>
+
 <tr><td colspan="5">店铺：Anasweeney模块批发 https://shop172522687.taobao.com</td></tr>
 <tr>
 <td><a href="https://item.taobao.com/item.htm?id=562771202773"><img src="img/TB216Qtb7fb_uJkSndVXXaBkpXa_!!3367377229.gif_160x160xz.jpg"><br>MICRO USB转Dip</a><br>¥0.18(¥0.30)</td>
@@ -255,6 +276,21 @@
 <td><a href="https://item.taobao.com/item.htm?id=541994136117"><img src="img/TB2RT0prbZnBKNjSZFGXXbt3FXa_!!2863694628.jpg_160x160xz.jpg"><br>杜邦线</a><br>¥0.88(¥1.45)</td>
 <td><a href="https://item.taobao.com/item.htm?id=551316731869"><img src="img/TB2pqnJrSMmBKNjSZTEXXasKpXa_!!2863694628.jpg_160x160xz.jpg"><br>DC电源插座</a><br>¥0.07</td>
 <td><a href="https://item.taobao.com/item.htm?id=596498082951"><img src="img/O1CN01gFMaIV1k3fWpUCkcQ_!!2863694628.jpg_160x160xz.jpg"><br>USB转DC5.5线</a><br>¥0.55(¥0.85)</td>
+</tr>
+
+<tr><td colspan="5">店铺：旺诚电子科技 https://shop68020712.taobao.com</td></tr>
+<tr>
+<td><a href="https://item.taobao.com/item.htm?id=567721367029"><img src="img/TB2zJ_4cYwrBKNjSZPcXXXpapXa_!!385434044.jpg_160x160xz.jpg"><br>玻纤洞洞板</a><br>¥1.02(¥1.39)</td>
+<td><a href="https://item.taobao.com/item.htm?id=587579431607"><img src="img/O1CN018nXyF31fkCBldWSeT_!!385434044.jpg_160x160xz.jpg"><br>1/4W金属膜电阻</a><br>¥1.68</td>
+<td><a href="https://item.taobao.com/item.htm?id=576086802567"><img src="img/O1CN011fkC8tU4MK8Mh0E_!!385434044.jpg_160x160xz.jpg"><br>单/双排母座</a><br>¥0.28</td>
+<td><a href="https://item.taobao.com/item.htm?id=581408336131"><img src="img/O1CN01RwIr8k1fkCAEjuItB_!!385434044.jpg_160x160xz.jpg"><br>鳄鱼夹子</a><br>¥6.80</td>
+<td><a href="https://item.taobao.com/item.htm?id=45515492151"><img src="img/TB1SUTvKFXXXXcgXXXXXXXXXXXX_!!0-item_pic.jpg_160x160xz.jpg"><br>MICRO USB插座</a><br>¥0.18</td>
+</tr>
+<tr>
+<td><a href="https://item.taobao.com/item.htm?id=552814111110"><img src="img/TB25jTFv5RnpuFjSZFCXXX2DXXa_!!385434044.jpg_160x160xz.jpg"><br>PCB板制作套件</a><br>¥98.00</td>
+<td><a href="https://item.taobao.com/item.htm?id=570132461006"><img src="img/TB2EYR5s79WBuNjSspeXXaz5VXa_!!385434044.jpg_160x160xz.jpg"><br>单/双排排针</a><br>¥0.20</td>
+<td><a href="https://item.taobao.com/item.htm?id=575239813223"><img src="img/TB2mQIomWAoBKNjSZSyXXaHAVXa_!!385434044.jpg_160x160xz.jpg"><br>外热式烙铁头</a><br>¥1.70</td>
+<td><a href="https://item.taobao.com/item.htm?id=589759761402"><img src="img/O1CN01qvvW6k1fkCCLBv6Bb_!!385434044.jpg_160x160xz.jpg"><br>电烙铁套装</a><br>¥19.80</td>
 </tr>
 
 <tr><td colspan="5">店铺：Anasweeney模块批发 https://shop172522687.taobao.com</td></tr>

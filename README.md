@@ -1,14 +1,14 @@
 ### 有用的驱动
 
 CP210x驱动
- - Win: [点击下载](CP210x_Universal_Windows_Driver.zip)
- - Mac: [点击下载](Mac_OSX_VCP_Driver.zip)
+ - Win: [点击下载](https://github.com/TronCool/Awsome-Maker/raw/master/CP210x_Universal_Windows_Driver.zip)
+ - Mac: [点击下载](https://github.com/TronCool/Awsome-Maker/raw/master/Mac_OSX_VCP_Driver.zip)
  - Linux: https://www.silabs.com/documents/login/software/Linux_3.x.x_4.x.x_VCP_Driver_Source.zip
  - Android: https://www.silabs.com/documents/public/application-notes/AN809.pdf (手动Build)
 
 CH340x驱动
- - Win: [点击下载](CH341SER.ZIP)
- - Mac: [点击下载](CH341SER_MAC.ZIP)
+ - Win: [点击下载](https://github.com/TronCool/Awsome-Maker/raw/master/CH341SER.ZIP)
+ - Mac: [点击下载](https://github.com/TronCool/Awsome-Maker/raw/master/CH341SER_MAC.ZIP)
  - Linux: http://www.wch.cn/downloads/CH341SER_LINUX_ZIP.html
  - Android: http://www.wch.cn/downloads/CH341SER_ANDROID_ZIP.html
 

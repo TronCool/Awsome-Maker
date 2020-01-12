@@ -25,6 +25,7 @@ WiFiUDP Udp;
 unsigned int localUdpPort = 80;  // local port to listen on
 char incomingPacket[255];  // buffer for incoming packets
 int MotorA1,MotorA2,MotorB1,MotorB2;
+int MotorA,MotorB;
 
 void setup() {
   // put your setup code here, to run once:
@@ -49,6 +50,7 @@ void setup() {
   Serial.println(WiFi.localIP());
   Udp.begin(localUdpPort);
   Serial.printf("Now listening at IP %s, UDP port %d\n", WiFi.localIP().toString().c_str(), localUdpPort);
+  digitalWrite(2,HIGH);//led
 }
 
 
@@ -161,7 +163,10 @@ int verifyValue(int x)
    {
     x = 255;
    }
-   int y = map(x, 0, 255, 0, 1023);
+
+   int y = 0;
+   if(x != 0)
+      y = map(x, 0, 255, 0, 1023);
    return y;
 }
 
@@ -170,47 +175,35 @@ void recvCmd(int x,int y)
   Serial.printf("cmd x = %d , y = %d\n", x,y);
   // 0 < x < 255 , 0 < y < 255
 
+  MotorA = MotorB = y;
+  MotorA += x;
+  MotorB -= x;
 
-  if(y>0){
-    MotorA1 = y;
+  if(MotorA > 0){
+    MotorA1 = MotorA;
     MotorA2 = 0;
-    MotorB1 = y;
-    MotorB2 = 0;
-    if(x>0)
-    {
-      MotorA1= MotorA1+x;
-      MotorB1= MotorB1-x;
-    }
-    else
-    {
-      MotorA1 = MotorA1 - fabs(x);
-      MotorB1 = MotorB1 + fabs(x);     
-    }
   }
-  else{
+  else
+  {
     MotorA1 = 0;
-    MotorA2 = fabs(y);
-    MotorB1 = 0;
-    MotorB2 = fabs(y);
-
-    if(x>0)
-    {
-      MotorA2 = MotorA2 + x;
-      MotorB2 = MotorB2 - x;
-    }
-    else
-    {
-      MotorA2 = MotorA2 - fabs(x);
-      MotorB2 = MotorB2 + fabs(x);
-    }
+    MotorA2 = fabs(MotorA);
   }
 
+  if(MotorB > 0){
+    MotorB1 = MotorB;
+    MotorB2 = 0;
+  }
+  else
+  {
+    MotorB1 = 0;
+    MotorB2 = fabs(MotorB);
+  }
   MotorA1 = verifyValue(MotorA1);
   MotorA2 = verifyValue(MotorA2);
   MotorB1 = verifyValue(MotorB1);
   MotorB2 = verifyValue(MotorB2);
 
-  Serial.printf("A1 = %d , A2 = %d , B1 = %d , B2 = %d\n", MotorA1,MotorA2,MotorB1,MotorB2);
+//   Serial.printf("A1 = %d , A2 = %d , B1 = %d , B2 = %d\n", MotorA1,MotorA2,MotorB1,MotorB2);
   analogWrite(tyreL1,MotorA1);
   analogWrite(tyreL2,MotorA2);
 

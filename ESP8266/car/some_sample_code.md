@@ -1,5 +1,14 @@
 超声波测距
 
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(6,OUTPUT);
+  pinMode(5,INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
   Serial.write("start...\n");
   digitalWrite(6,HIGH);
   delayMicroseconds(1);
@@ -10,3 +19,38 @@
   Serial.print(distance);
   Serial.println();
   delay(100);
+}
+
+
+四路寻迹
+#define LED1 A0
+#define LED2 A1
+#define LED3 A2
+#define LED4 A3
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  pinMode(LED1,INPUT);
+  pinMode(LED2,INPUT);
+  pinMode(LED3,INPUT);
+  pinMode(LED4,INPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int L1,L2,L3,L4;
+  L1 = analogRead(LED1);//无障碍 高电平1022， 否则低电平 22
+  L2 = analogRead(LED2);
+  L3 = analogRead(LED3);
+  L4 = analogRead(LED4);  
+  Serial.print(L1);
+  Serial.print("-");  
+  Serial.print(L2);
+  Serial.print("-");  
+  Serial.print(L3);
+  Serial.print("-");  
+  Serial.print(L4);
+  Serial.println("");  
+  delay(1000);
+}

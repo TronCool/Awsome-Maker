@@ -55,3 +55,27 @@ void loop() {
   Serial.println("");  
   delay(1000);
 }
+
+码盘检测
+
+#define speedPin 5//定义数字3接口
+int cntValue=0;
+void setup ()
+{
+  pinMode(speedPin,INPUT);//5号数字口设置为输入状态
+  Serial.begin(115200);
+  Serial.println("Speed Count\n");
+  attachInterrupt(digitalPinToInterrupt(speedPin),IntCallback,FALLING);
+}
+
+ICACHE_RAM_ATTR void IntCallback()
+{
+  cntValue++;//计数增加
+  Serial.println(cntValue);
+}
+
+void loop()
+{
+
+}
+

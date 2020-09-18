@@ -1,19 +1,29 @@
 $fn=100;
 difference(){
-  cube([89,59,18.5]);
-  translate([1,1,1]) cube([89,57,16.5]);
-  translate([89,29.5,-1]) cylinder(20, r=7);
-  translate([-1,-1.5,16.5]) rotate([45,0,0]) cube([91,10,2]);
-  translate([-1,-2.5,0]) rotate([-45,0,0]) cube([91,10,2]);
-  translate([-1,55.5,21.5]) rotate([-45,0,0]) cube([91,10,2]);
-  translate([-1,55.5,-6]) rotate([45,0,0]) cube([91,10,2]);
-  translate([-4.5,-1,2]) rotate([0,45,0]) cube([10,60,2]);
-  translate([-4.5,-1,13.5]) rotate([0,-45,0]) cube([10,60,2]);
-  translate([2.75,-5,-1]) rotate([0,0,45]) cube([2,10,20]);
-  translate([-6.25,55,-1]) rotate([0,0,-45]) cube([2,10,20]);
+  cube([89,61,19], center=true);
+  translate([1,0,0]) cube([89,59,17], center=true);
+  translate([44.5,0]) cylinder(25, r=7, center=true);
   hull(){
-    translate([-1,12.5,8.75]) rotate([0,90,0]) cylinder(5, r=5);
-    translate([-1,45,8.75]) rotate([0,90,0]) cylinder(5, r=5);
+    translate([-44,14,0]) rotate([0,90,0]) cylinder(5, r=5, center=true);
+    translate([-44,-14,0]) rotate([0,90,0]) cylinder(5, r=5, center=true);
   }
+  hull(){
+    translate([-30,5,-1]) cylinder(25, r=3, center=true);
+    translate([-30,-5,-1]) cylinder(25, r=3, center=true);
+    translate([6,0,-1]) cylinder(25, r=10, center=true);
+  }
+  hull(){
+    translate([22,0,-1]) cylinder(25, r=2.5, center=true);
+    translate([2,15,-1]) cylinder(25, r=2.5, center=true);
+    translate([2,-15,-1]) cylinder(25, r=2.5, center=true);
+  }
+  translate([0,30.75,9.75]) rotate([45,0,0]) cube([95,1,1], center=true);
+  translate([0,-30.75,9.75]) rotate([45,0,0]) cube([95,1,1], center=true);
+  translate([0,30.75,-9.75]) rotate([45,0,0]) cube([95,1,1], center=true);
+  translate([0,-30.75,-9.75]) rotate([45,0,0]) cube([95,1,1], center=true);
+  translate([-44.75,0,9.75]) rotate([0,45,0]) cube([1,65,1], center=true);
+  translate([-44.75,0,-9.75]) rotate([0,45,0]) cube([1,65,1], center=true);
+  translate([-44.75,30.75,0]) rotate([0,0,45]) cube([1,1,25], center=true);
+  translate([-44.75,-30.75,0]) rotate([0,0,45]) cube([1,1,25], center=true);
 }
 

@@ -3,11 +3,11 @@
 #include <WiFiUdp.h>
 
 
-int tyreL1 = 14;
-int tyreL2 = 12;
+int tyreL1 = D5;//14;
+int tyreL2 = D6;//12;
 
-int tyreR1 = 13;
-int tyreR2 = 15;
+int tyreR1 = D7;//13;
+int tyreR2 = D8;//15;
 
 void go(int x);
 void back(int x);

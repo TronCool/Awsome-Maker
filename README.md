@@ -32,4 +32,4 @@ Micro Python ESP32: https://micropython.org/resources/firmware/esp8266-20190529-
 
 ### Awsome project of maker
 
-na
+na2

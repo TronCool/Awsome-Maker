@@ -30,6 +30,3 @@ CH340x驱动
 Micro Python ESP8266: https://micropython.org/resources/firmware/esp8266-20190529-v1.11.bin
 Micro Python ESP32: https://micropython.org/resources/firmware/esp8266-20190529-v1.11.bin
 
-### Awsome project of maker
-
-na2
